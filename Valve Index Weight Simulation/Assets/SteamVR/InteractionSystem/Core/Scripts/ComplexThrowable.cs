@@ -49,7 +49,9 @@ namespace Valve.VR.InteractionSystem
 		public ConfigurableJointMotion zMotion = ConfigurableJointMotion.Locked;
 		public float positionDamper{get; set;}
 
-		public int regrasp = 0;
+		public int regrasp = -1;
+
+		public bool updateAttachMode = false;
 
 		public bool isConfirguable = false;
 		//-------------------------------------------------
@@ -73,7 +75,7 @@ namespace Valve.VR.InteractionSystem
 			//Our own if statement
 			if(isConfirguable)
 			{
-				Debug.Log("Albus Dangledores dangling " + positionDamper);
+				//Debug.Log("Albus Dangledores dangling " + positionDamper);
 				JointDrive myJointDrive = myJoint.slerpDrive;
 				myJointDrive.positionDamper = positionDamper;
 				myJoint.slerpDrive = myJointDrive;

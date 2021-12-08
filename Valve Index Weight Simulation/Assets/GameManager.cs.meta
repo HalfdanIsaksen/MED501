@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 68b88eba2fc91a448b53893c80f3e2a7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spawnPointBookShelf: {instanceID: 0}
+  - spawnPointFirePlace: {instanceID: 0}
+  - spawnPointBox: {instanceID: 0}
+  - bottle: {fileID: 6155325810941797766, guid: 1569ae0074a21ed49b5c4bbc130b2af1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
